@@ -24,7 +24,7 @@ spec:
           periodSeconds: 5
           timeoutSeconds: 1
           successThreshold: 3
-          failureThreshold: 3
+          failureThreshold: 2
           httpGet:
             host:
             scheme: HTTP
