@@ -25,7 +25,3 @@ spec:
         - name: nginx-vol
           persistentVolumeClaim:
             claimName: lab-pvc
-  replicas: 5
-  selector:
-    matchLabels:
-      type: frontend
