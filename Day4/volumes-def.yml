@@ -6,7 +6,7 @@ spec:
   hostPath:
     path: /tmp/lab
   capacity:
-    storage: 2Gi
+    storage: 3Gi
   accessModes:
     - ReadWriteMany
   storageClassName: local-path
